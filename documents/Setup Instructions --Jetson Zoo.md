@@ -23,9 +23,9 @@ docker run --runtime nvidia -it <container_name>
   ```python
   Nvcc –version
   ```
-  
 
-#### 4. Some links lead to a docker hub link containing multiple images for a specific system
-   - Downloading images from docker hub directly is easier	
+
+#### 4. Some links lead to a docker hub link containing multiple images for a specific system 
+- Downloading images from docker hub directly is easier	
 
 
