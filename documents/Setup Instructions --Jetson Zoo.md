@@ -28,7 +28,7 @@ docker run --runtime nvidia -it <container_name>
 #### 4. Some links lead to a docker hub link containing multiple images for a specific system 
 - Downloading images from docker hub directly is easier	
 
-#### Troubleshooting - Relocating Docker Root
+### Troubleshooting - Relocating Docker Root
 Containers can take up a lot of disk space. If you have external storage available, it's advised to relocate your Docker container cache to the larger drive
 
 Add your directory (in this case, /mnt/docker) as "data-root" in /etc/docker/daemon.json:
