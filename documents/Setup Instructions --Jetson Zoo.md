@@ -7,13 +7,17 @@
 #### 2. Download and Run the Docker Container:
 - Follow the instructions provided in the Jetson Zoo or the GitHub repo to download and run the Docker container.
 - Ensure:  you allow the container to be persistent by removing the ‘-rf’ flag from the docker run command. This prevents the container from being removed after it stops running.
+- Example command:
+  
+```python
+docker run --runtime nvidia -it <container_name>
+```
   
 #### 3. Once inside the container check if it has access to the GPU by using :
 
   ```python
   Nvidia-smi
   ```
-  
   If nvidia-smi is not available (some jetsons can't use nvidia-smi), you can check the CUDA version using:
   
   ```python
