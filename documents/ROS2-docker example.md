@@ -3,11 +3,14 @@ This guide provides instructions for setting up ROS2 on NVIDIA Jetson devices us
 Docker containers from the Jetson Zoo. These containers are optimized for Jetson
 platforms and simplify the installation process.
 
+Hardware: NVIDIA Jetson device (e.g., Jetson Nano, Xavier, Orin).
 Version: ROS Melodic, ROS Noetic, ROS2 Eloquent, ROS2 Foxy, ROS2 Galactic, ROS2 Humble
 Supports: JetPack >= 4.2 (Jetson Nano / TX1 / TX2 / Xavier NX / AGX Xavier / AGX Orin)
 
-### 1. Docker Installation 
+You can also find various resources, libraries, and extra NVIDIA packages for ROS2 at (https://nvidia-ai-iot.github.io/ros2_jetson/)
 
+### 1. Docker Installation 
+- 
 ```python
 sudo apt-get update
 sudo apt-get install docker.io
