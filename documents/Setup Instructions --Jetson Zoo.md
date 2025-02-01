@@ -1,3 +1,4 @@
+
 ## Docker set-up
 #### 1. Figure out what Development environment you need and then visit [Jetson Zoo](https://elinux.org/Jetson_Zoo#ROS)
 - Jetson Zoo provides multiple docker containers for specific purposes such as using Tensor Flow, Ros2, etc.
@@ -13,7 +14,7 @@
   Nvcc –version (some jetsons can't use nvidia-smi)
   ```
 
-4. Some links lead to a docker hub link containing multiple images for a specific system
+#### 4. Some links lead to a docker hub link containing multiple images for a specific system
    - Downloading images from docker hub directly is easier	
 
 
